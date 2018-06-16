@@ -1,1 +1,1 @@
-
+def destructivelyAppendKitten(name)
