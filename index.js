@@ -28,4 +28,6 @@ function destructivelyAppendKitten(name) {
    return [name,...kittens];
  }
  
- 
+ function removeLastKitten() {
+   return kittens.slice(-1)
+ }
