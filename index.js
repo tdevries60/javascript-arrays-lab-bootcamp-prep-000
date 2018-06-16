@@ -9,3 +9,8 @@ function destructivelyAppendKitten(name) {
    kittens.unshift(name);
    return kittens;
  }
+ 
+ function destructivelyRemoveLastKitten(name) {
+   kitten.pop();
+   return kittens;
+ }
