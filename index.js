@@ -33,4 +33,7 @@ function destructivelyAppendKitten(name) {
    return newKittens
  }
  
- fuc
+ function removeFirstKitten() {
+   var newKittens = kittens.slice(1)
+   return newKittens
+ }
