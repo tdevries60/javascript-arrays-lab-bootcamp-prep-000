@@ -21,5 +21,5 @@ function destructivelyAppendKitten(name) {
  }
  
  function appendKitten(name) {
-   new_kittens() = kittens[name,...kittens];
+   new_kittens() = [name,...kittens];
  }
